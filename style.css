@@ -1,0 +1,110 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Krona+One&display=swap);
+body{
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    color: white;
+    position: absolute;
+    top: 28px;
+    left: 530px;
+    width: 593px;
+    height: 168px;
+
+    
+    font-family: 'Krona One', sans-serif;
+    font-style: normal;
+    font-size: 36px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 56px;
+
+
+    color: #F6F6F6;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    align-items: flex-start;
+    strong{color: rgba(34, 212, 253, 1)};
+}
+
+p {
+    color: white;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 40px;
+    
+    position: absolute;
+    width: 593px;
+    height: 352px;
+    left: 530px;
+    top: 200px;
+}
+button {
+    background-color: rgba(34, 212, 253, 1);
+    color: white;
+    border: none;
+    width:280px;height:79px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-size:24px;
+    align-items: flex-start;
+    
+}
+.linkedin {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px;
+gap: 16px;
+
+position: absolute;
+width: 260px;
+height: 79px;
+left: 540px;
+top: 320px;
+
+background: #22D4FD;
+border-radius: 16px;
+}
+.github{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px;
+gap: 16px;
+
+position: absolute;
+width: 260px;
+height: 79px;
+left: 840px;
+top: 320px;
+
+background: #22D4FD;
+border-radius: 16px;
+
+}
+
+img {
+    width: 467,71px;
+    height: 510px;
+}
+
+main{
+
+/*
+background-color: black;
+background-position-x: 960px;
+background-position-y: 575px;
+width: 1920px;
+height: 1151;
+*/
+}
